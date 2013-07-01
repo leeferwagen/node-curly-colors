@@ -1,0 +1,31 @@
+{
+  "name": "curly-colors",
+  "description": "Simplifies the working with console colors",
+  "version": "0.1.0",
+  "author": {
+    "name": "Muslim Idris",
+    "email": "gelamu@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "curly",
+    "colorize",
+    "colors",
+    "color"
+  ],
+  "scripts": {
+    "test": "cd test && ../node_modules/.bin/mocha --reporter spec"
+  },
+  "devDependencies": {
+    "mocha": ">= 1.11.x"
+  },
+  "engines": {
+    "node": ">= 0.4.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Muslim-Idris/node-curly-colors"
+  },
+  "main": "./lib/curly-colors.js",
+  "readmeFilename": "README.md"
+}
