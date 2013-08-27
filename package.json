@@ -6,6 +6,12 @@
     "name": "Muslim Idris",
     "email": "gelamu@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "Jan Oetjen",
+      "email": "oetjenj@gmail.com"
+    }
+  ],
   "license": "MIT",
   "keywords": [
     "curly",
@@ -17,7 +23,8 @@
     "test": "cd test && ../node_modules/.bin/mocha --reporter spec"
   },
   "devDependencies": {
-    "mocha": ">= 1.11.x"
+    "mocha": ">= 1.11.x",
+    "underscore": "latest"
   },
   "engines": {
     "node": ">= 0.4.x"
