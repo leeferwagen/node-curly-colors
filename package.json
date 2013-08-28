@@ -1,11 +1,17 @@
 {
   "name": "curly-colors",
   "description": "Simplifies the working with console colors",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "Muslim Idris",
     "email": "gelamu@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "Jan Oetjen",
+      "email": "oetjenj@gmail.com"
+    }
+  ],
   "license": "MIT",
   "keywords": [
     "curly",
@@ -17,7 +23,8 @@
     "test": "cd test && ../node_modules/.bin/mocha --reporter spec"
   },
   "devDependencies": {
-    "mocha": ">= 1.11.x"
+    "mocha": ">= 1.11.x",
+    "underscore": "latest"
   },
   "engines": {
     "node": ">= 0.4.x"

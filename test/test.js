@@ -1,4 +1,4 @@
-var cc = require('..');
+var cc     = require('..');
 var assert = require('assert');
 
 describe('curly-colors', function() {
@@ -29,9 +29,19 @@ describe('curly-colors', function() {
   describe('Nested colors', function() {
 
     it('should return a string with yellow and magenta on green', function() {
-      assert.equal('\u001b[32mgreen \u001b[33myellow\u001b[39m\u001b[32m green \u001b[35mmagenta\u001b[39m\u001b[32m green\u001b[39m',
+      assert.equal('\u001b[32mgreen \u001b[33myellow\u001b[32m green \u001b[35mmagenta\u001b[32m green\u001b[39m',
                    cc('<{green>green <{yellow>yellow<}> green <{magenta>magenta<}> green<}>'));
     });
+
+  });
+
+  describe('Non-colors (underline, blink)', function() {
+
+  });
+
+  describe('Alternate formats', function() {
+
+    // it('should return a string ')
 
   });
 
