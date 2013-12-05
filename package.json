@@ -1,7 +1,7 @@
 {
   "name": "curly-colors",
   "description": "Simplifies the working with console colors",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Muslim Idris",
     "email": "gelamu@gmail.com"
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Muslim-Idris/node-curly-colors"
+    "url": "https://github.com/Muslim-Idris/node-curly-colors"
   },
   "main": "./lib/curly-colors.js",
   "readmeFilename": "README.md"
